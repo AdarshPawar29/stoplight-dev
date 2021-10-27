@@ -3,6 +3,7 @@ import React from "react";
 import { StoplightProject } from "@stoplight/elements-dev-portal";
 
 const StoplightProjectDoc = () => {
+  // TODO: To remove the error Comment the StoplightProject
   return (
     <>
       <StoplightProject
@@ -10,7 +11,6 @@ const StoplightProjectDoc = () => {
         platformUrl="https://stoplight.io"
         projectId="cHJqOjYwNjYx"
       />
-      ;
     </>
   );
 };
